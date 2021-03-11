@@ -1,0 +1,22 @@
+<div class="footer">
+  <ul><!--合作伙伴logo-->
+    <li><a href="javascript:vido(0);"><img src="images/partner01.gif"></a></li>
+    <li><a href="javascript:vido(0);"><img src="images/partner02.gif"></a></li>
+    <li><a href="javascript:vido(0);"><img src="images/partner03.gif"></a></li>
+    <li><a href="javascript:vido(0);"><img src="images/partner04.gif"></a></li>
+    <li><a href="javascript:vido(0);"><img src="images/partner05.gif"></a></li>
+    <li><a href="javascript:vido(0);"><img src="images/partner06.gif"></a></li>
+    <li><a href="javascript:vido(0);"><img src="images/partner07.gif"></a></li>
+    <p class="cle"></p>
+  </ul>
+  <div><!--底部文字-->
+    <a href="javascript:vido(0);">苏ICP备14039882号-4</a><span>|</span>
+    <a href="javascript:vido(0);">苏B1-20150021</a><span>|</span>
+    <a href="javascript:vido(0);">无锡Bombin网络科技有限公司</a>
+  </div>
+</div>
+
+</body>
+<script src="{$bombin_path}js/leftsidebar.js"></script>
+<script src="{$bombin_path}js/index.js"></script>
+</html>

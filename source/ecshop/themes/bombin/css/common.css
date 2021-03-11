@@ -1,0 +1,16 @@
+﻿/*..........A..........*/
+
+/*初始化样式*/
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	border:0;
+	color:#000;	
+	font-family:"微软雅黑", "宋体";
+	font-size:14px;	
+	}
+.cle{
+	clear:both;
+	}

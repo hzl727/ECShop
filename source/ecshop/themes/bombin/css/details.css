@@ -1,0 +1,114 @@
+#container{
+	width:1200px;
+	margin:0 auto;
+	padding-bottom:53px;}
+#container > span{
+	display:block;
+	height:32px;
+	font:12px/32px "宋体";}
+#container > span a{
+	font:12px/32px "宋体";}
+#container > span a:hover{
+	color:#F00;}
+.details{
+	width:981px;
+	float:right;
+	margin-right:3px;}
+.details > p{
+	width:960px;
+	height:31px;
+	border-bottom:2px solid #dfdfdf;
+	font-size:16px;
+	padding:18px 0 0 18px;}
+.details .overview{
+	width:979px;
+	margin-top:18px;
+	border:1px solid #dfdfdf;}
+.details .overview h6{
+	height:40px;
+	padding:9px 8px 0;
+	font-weight:400;}
+.details .overview p{
+	width:955px;
+	height:34px;
+	border-bottom:1px dashed #dfdfdf;
+	margin-left:8px;
+	font-size:12px;
+	line-height:26px;
+	color:#999;}
+.details .overview p span{
+	margin-left:55px;
+	font-size:12px;
+	line-height:26px;
+	color:#999;}
+.details .overview .ul1{
+	margin:12px 7px 0;
+	padding-bottom:24px;}
+.details .overview .ul1 li{
+	line-height:24px;
+	font-size:12px;
+	color:#999;}
+.details .overview .ul1 li span{
+	color:#f00;
+	font-size:12px;}
+.details .overview .ul2 li{
+	width:188px;
+	height:30px;
+	float:left;
+	font-size:12px;
+	margin-left:70px;
+	color:#333;}
+.details .overview .div1{
+	width:963px;
+	height:30px;
+	border-top:1px solid #dfdfdf;
+	background:#f7f7f7;
+	margin-left:9px;}
+	
+.details .overview .article{
+	width:963px;
+	height:84px;
+	border-bottom:1px dashed #dfdfdf;
+	margin-left:9px;}
+.details .overview .article li{
+	height:84px;
+	float:left;
+	margin-right:60px;
+	line-height:84px;
+	font-size:12px;}
+.details .overview .article li img{
+	float:left;
+	margin:11px 4px 0 3px;
+	border: 1px solid #dfdfdf;}
+.details .overview .article li a{
+	display:block;
+	margin:25px 0 0 80px;
+	font-size:12px;
+	color:#333;}
+.details .overview .article li span{
+	font-size:12px;
+	color:#666;
+	margin-left:80px;
+	display:block;}
+.details .overview .article .li1{
+	line-height:normal;}
+.details .overview .article .li2{
+	margin:0 80px 0 40px;
+	font-size:14px;}
+.details .overview .article .li3{
+	margin-left:10px;
+	color:#F00;
+	font-weight:600;}
+.details .overview .total{
+	width:140px;
+	float:right;
+	margin:0 30px 10px;}
+.details .overview .total ul{
+	margin:10px 0;
+	float:left;}
+.details .overview .total ul li{
+	text-align:right;
+	line-height:30px;}
+.details .overview .total .ul3 li{
+	text-align:left;
+	color:#F00;}

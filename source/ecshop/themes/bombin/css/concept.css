@@ -1,0 +1,40 @@
+
+/* 品牌理念部分样式开始 */
+.concept{
+	width:1206px;
+	height:90px;
+	margin:0 auto;
+	margin-top:27px;
+	margin-bottom:30px;
+	border:1px solid #ececec;
+	}
+.concept li{
+	height:100%;
+	padding:0 50px 0 105px;
+	line-height:90px;
+	float:left;
+	}
+.concept li a{
+	font-size:20px;
+	color:#6d6d6d;
+	}
+.concept li a:hover{
+	color:#333;
+	}
+.concept .li01{
+	background:url(../images/concept01.png) no-repeat 48px 25px;
+	}
+.concept .li02{
+	background:url(../images/concept02.png) no-repeat 48px 24px;
+	}
+.concept .li03{
+	background:url(../images/concept03.png) no-repeat 45px 25px;
+	}
+.concept .li04{
+	background:url(../images/concept04.png) no-repeat 55px 23px;
+	}
+.concept .li05{
+	background:url(../images/concept05.png) no-repeat 55px 25px;
+	}
+
+/* 品牌理念部分样式结束 */

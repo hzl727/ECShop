@@ -1,0 +1,37 @@
+
+/* 底部导航栏样式开始 */
+
+.botnav{
+	width:100%;
+	height:175px;
+	background:#444;
+	}
+.botnav div{
+	width:1206px;
+	margin:0 auto;
+	text-align:center;
+	padding-top:20px;
+	}
+.botnav ul{
+	float:left;
+	margin:0 40px;
+	}
+.botnav li{
+	font-size:18px;
+	color:#FFF;
+	}
+.botnav .title{
+	padding:5px 0;
+	}
+.botnav li a{
+	font-size:12px;
+	font-family:"宋体";
+	color:#FFF;
+	}
+.list{
+	text-align:left;
+	}
+.botnav a:hover{
+	color:#999;
+	}
+/* 底部导航栏样式结束 */

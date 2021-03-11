@@ -1,0 +1,117 @@
+#container{
+	width:1200px;
+	margin:0 auto;
+	padding:20px 0;}
+
+/*购物流程图样式开始*/
+#steps{
+	width:689px;
+	height:46px;
+	margin:0 auto;
+	margin-top:10px;
+	}
+#steps li{
+	float:left;
+	width:219px;
+	height:41px;
+	border-top:5px solid #eee;
+	position:relative;
+	text-align:center;
+	line-height:41px;
+	}
+#steps .now{border-top:5px solid #ccc;}
+#steps li a{ font-family:"宋体"; color:#9f9e9e; padding:10px 15px;}
+#steps li > div{
+	width:25px;
+	height:25px;
+	border-radius:25px;
+	text-align:center;
+	line-height:25px;
+	background:#ccc;
+	color:#fff;
+	position:absolute;
+	left:92px;
+	top:-13px;
+	}
+
+.info{
+	width:1196px;
+	height:96px;
+	border:2px solid #ddd;
+	margin:20px 0;}
+.info img{
+	float:left;}
+.info p{
+	line-height:28px;
+	margin-left:100px;
+	font-size:12px;
+	color:#656666;}
+.info .p1{
+	color:#f00;
+	font-size:12px;
+	margin-top:5px;
+	margin-left:105px;}
+.info p span{
+	color:#F00;
+	font-size:12px;}
+.info .p1 + p{
+	margin-left:125px;
+	color:#000;}
+
+.bank{
+	width:1198px;
+	border:1px solid #dfdfdf;
+	padding:60px 0 30px 0;}
+.bank > div{
+	width:1090px;
+	height:auto;
+	margin:0 auto;
+	border:1px solid #dfdfdf;
+	position:relative;
+	padding:10px 25px;
+	}
+.bank > div .title{
+	width:168px;
+	height:38px;
+	border:1px solid #dfdfdf;
+	border-bottom-color:#fff;
+	text-align:center;
+	line-height:38px;
+	position:absolute;
+	left:-1px;
+	top:-40px;
+	font-family:"宋体";
+	color:#f00;
+	}
+.bank > div > p{
+	line-height:42px;
+	border-bottom:1px dashed #dfdfdf;
+	padding-left:10px;
+	}
+.bank > div ul{
+	width:1090px;
+	height:auto;
+	margin-top:10px;
+	}
+.bank > div ul li{
+	float:left;
+	width:177px;
+	height:38px;
+	border:1px solid #dfdfdf;
+	padding-left:10px;
+	margin:0 10px 28px 10px;	
+	}
+.bank > div ul li img{ width:143px; height:38px;}
+.bank > div ul li .rd{ float:left; margin:12px 15px 0 0;}
+.bank .gopay{
+	width:158px;
+	height:38px;
+	background:#f00;
+	text-align:center;
+	line-height:36px;
+	color:#fff;
+	cursor:pointer;
+	font-size:20px;
+	margin:25px 0 10px 26px;
+	}
+.bank .gopay:hover{ background:#999;}

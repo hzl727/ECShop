@@ -1,0 +1,125 @@
+#container{
+	width:1200px;
+	margin:0 auto;
+	padding-bottom:53px;}
+#container > span{
+	display:block;
+	height:32px;
+	font:12px/32px "宋体";}
+#container > span a{
+	font:12px/32px "宋体";}
+#container > span a:hover{
+	color:#F00;}
+
+/*    新增地址开始    */
+.address{
+	width:973px;
+	float:right;}
+.address p{
+	width:775px;
+	margin-right:181px;
+	float:right;
+	border-bottom:2px solid #f2f2f2;
+	font-size:16px;
+	color:#2b2b2b;
+	padding:0 0 8px 22px;}
+.address table{
+	margin-left:60px;}
+.address table tr{
+	height:36px;}
+.address table tr td{
+	font-size:12px;}
+.address table tr td input{
+	width:136px;
+	height:17px;
+	border:1px solid #dfdfdf;}
+.address .sub{
+	width:65px;
+	height:26px;
+	background:#F00;
+	border:1px solid #dfdfdf;
+	color:#fff;
+	margin:10px 90px;
+	cursor:pointer;}
+.address .sub:hover{
+	background:#F60;}
+/*    新增地址结束    */
+
+/*    收货地址开始    */
+.shipping{
+	width:979px;
+	float:right;
+	margin-top:20px;}
+.shipping p{
+	width:88px;
+	height:36px;
+	border-bottom:2px solid #f00;
+	line-height:36px;
+	margin:4px 33px 0;
+	padding-left:10px;
+	float:left;}
+.shipping .new{
+	width:90px;
+	height:33px;
+	float:right;
+	margin:4px;
+	color:#fff;
+	background:#f00;
+	cursor:pointer;}
+.shipping .new:hover{
+	background:#f60;}
+.shipping .info{
+	width:979px;
+	float:right;
+	border:2px solid #dfdfdf;}
+.shipping .info .nav{
+	height:46px;
+	background:#f2f2f2;}
+.shipping .info .nav li{
+	float:left;
+	line-height:46px;
+	margin:0 70px 0 35px;}
+.shipping .info .data{
+	height:96px;
+	border-top:2px solid #dfdfdf;}
+.shipping .info .data li{
+	width:124px;
+	float:left;
+	font-size:12px;
+	line-height:46px;
+	text-align:center;
+	margin:0 15px 0 20px;
+	line-height:90px;}
+.shipping .info .data li a{
+	color:#0000ff;}
+.shipping .info .data .ill{
+	text-align:left;
+	line-height:45px;}
+.shipping .submenu{
+	float:right;
+	margin:26px 45px;}
+.shipping .submenu li{
+	width:24px;
+	height:21px;
+	border:1px solid #dfdfdf;
+	color:#4c4c4c;
+	float:left;
+	text-align:center;
+	line-height:21px;
+	margin:0 6px;
+	font-size:12px;	}
+.shipping .submenu .li_new{
+	background:#F00;
+	color:#FFF;}
+.shipping .submenu input{
+	width:43px;
+	height:23px;
+	border:1px solid #dfdfdf;
+	color:#4c4c4c;
+	background:none;
+	float:left;
+	margin:0 6px;
+	font-size:12px;
+	cursor:pointer;}
+
+/*    收货地址结束    */

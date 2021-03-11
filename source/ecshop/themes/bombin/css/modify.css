@@ -1,0 +1,102 @@
+#container{
+	width:1200px;
+	margin:0 auto;
+	padding-bottom:53px;}
+#container > span{
+	display:block;
+	height:32px;
+	font:12px/32px "宋体";}
+#container > span a{
+	font:12px/32px "宋体";}
+#container > span a:hover{
+	color:#F00;}
+	
+/*    选项卡开始    */
+.modify{
+	width:973px;
+	margin-right:2px;
+	float:right;}
+.modify .subnav{
+	width:973px;
+	height:38px;
+	border-bottom:2px solid #dfdfdf;}
+.modify .subnav li{
+	height:16px;
+	border-bottom:2px solid #dfdfdf;
+	float:left;
+	font-size:16px;
+	padding:12px 10px 10px;
+	margin-right:44px;}
+.modify .subnav .li_new{
+	border-bottom:2px solid #f00;}
+.modify div{
+	width:973px;
+	height:300px;
+	display:none;}
+/*    选项卡结束    */
+	
+/*    修改资料开始    */
+.modify .basis table{
+	margin-left:88px;}
+.modify .basis table tr{
+	height:42px;}
+.modify .basis table tr td{
+	font-size:12px;}
+.modify .basis table tr td span{
+	color:#F00;}
+.modify .basis table tr td a{
+	color:#2400ff;}
+.modify .basis table tr td a:hover{
+	text-decoration:underline;}
+.modify .basis table tr td input{
+	width:232px;
+	height:16px;
+	border:1px solid #dfdfdf;}
+.modify .basis table tr td .radio{
+	width:8px;
+	height:8px;
+	margin:0 5px;}
+.modify .basis table tr td select{
+	width:60px;
+	height:18px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#666 #dfdfdf #dfdfdf #666;
+	font-size:12px;
+	margin-right:8px;}
+.modify .basis table tr td .loc_all{
+	width:100px;}
+.modify .basis .sub{
+	width:114px;
+	height:28px;
+	background:#F00;
+	color:#fff;
+	margin:20px 200px;
+	cursor:pointer;}
+.modify .basis .sub:hover{
+	background:#F60;}
+/*    修改资料结束    */
+
+/*    修改密码开始    */	
+.modify .password table{
+	margin:20px 88px;}
+.modify .password table tr td{
+	height:42px;
+	color:#747474;}
+.modify .password table tr td span{
+	font-size:16px;
+	color:#F00;}
+.modify .password table tr td input{
+	width:223px;
+	height:20px;
+	border:1px solid #dfdfdf;}
+.modify .password .sub{
+	width:90px;
+	height:28px;
+	background:#F00;
+	color:#fff;
+	margin:20px 172px;
+	cursor:pointer;}
+.modify .password .sub:hover{
+	background:#F60;}
+/*    修改密码结束    */

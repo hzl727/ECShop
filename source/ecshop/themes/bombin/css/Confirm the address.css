@@ -1,0 +1,162 @@
+/* CSS Document */
+/*页面主体样式开始*/
+
+.content{ width:1200px; height:auto; margin:0 auto; padding:20px 0;}
+
+/*购物流程图样式开始*/
+#steps{
+	width:689px;
+	height:46px;
+	margin:0 auto;
+	margin-top:10px;
+	}
+#steps li{
+	float:left;
+	width:219px;
+	height:41px;
+	border-top:5px solid #eee;
+	position:relative;
+	text-align:center;
+	line-height:41px;
+	}
+#steps .now{border-top:5px solid #ccc;}
+#steps li a{ font-family:"宋体"; color:#9f9e9e; padding:10px 15px;}
+#steps li > div{
+	width:25px;
+	height:25px;
+	border-radius:25px;
+	text-align:center;
+	line-height:25px;
+	background:#ccc;
+	color:#fff;
+	position:absolute;
+	left:92px;
+	top:-13px;
+	}
+
+/*收货地址栏样式*/
+.content .add{ width:1200px; height:auto; margin:0 auto; border:1px solid #dfdfdf; margin:60px 0;}
+.content .add h1{ line-height:43px; padding-left:27px; color:#191919; border-bottom:1px solid #dfdfdf; font-weight:400;}
+.content .add ul{ width:1198px; height:auto;}
+.content .add ul li{
+	float:left;
+	width:256px;
+	height:163px;
+	border:1px solid #dfdfdf;
+	margin:19px 0 19px 20px;
+	padding:0 7px;
+	background:url(../images/add_bg.gif);
+	}
+.content .add ul div{
+	float:left;
+	width:256px;
+	height:163px;
+	border:1px solid #dfdfdf;
+	margin:19px 0 19px 20px;
+	padding:0 7px;
+	}
+.content .add ul .now{ background:url(../images/addbg.gif) no-repeat;}
+.content .add ul li:hover{ border:1px solid #f00;}
+.content .add ul div:hover{ border:1px solid #f00;}
+.content .add ul li a{ display:block; width:100%; height:100%;}
+.content .add ul div a{ display:block; width:100%; height:100%;}
+.content .add ul li p{ line-height:45px; padding-left:25px; font-family:"宋体"; font-size:12px; color:#414141;}
+.content .add ul li p span{ padding-left:10px; font-family:"宋体"; font-size:12px; color:#414141; margin:0;}
+.content .add ul li .p1{ background:url(../images/addicon_01.png) no-repeat 2px 15px; border-bottom:1px dashed #dfdfdf;}
+.content .add ul li .p2{ background:url(../images/addicon_02.png) no-repeat 2px 15px; border-bottom:1px dashed #dfdfdf;}
+.content .add ul li .p3{ background:url(../images/addicon_03.png) no-repeat 2px 16px;}
+.content .add ul div span{ font-size:80px; color:#808080; margin-left:95px; height:80px;}
+.content .add ul div h2{ text-align:center; font-family:"宋体"; color:#808080;}
+
+
+/*商品信息栏样式*/
+.content .goods{ width:1200px; height:auto; margin:0 auto; border:1px solid #dfdfdf; background:#fafafa; margin-top:10px;}
+.content .goods .title{ width:1198px; height:42px;}
+.content .goods .title ul{ text-align:center; line-height:42px; height:42px; width:1198px;}
+.content .goods .title ul li{
+	float:left;
+	font-family:"宋体";
+	color:#333;
+	width:150px;
+	margin-left:15px;
+	}
+.content .goods .title ul .li01{ margin:0; width:528px; text-align:left; font-family:"微软雅黑"; color:#666; padding-left:10px;}
+
+.content .goods > ul{ width:1200px; height:100px; border-top:1px solid #dfdfdf; text-align:center; background:#fff;}
+.content .goods > ul a:hover{ text-decoration:underline;}
+.content .goods > ul li{
+	float:left;
+	font-family:"宋体";
+	color:#333;
+	width:150px;
+	height:100px;
+	line-height:100px;
+	margin-left:15px;
+	}
+.content .goods > ul .li01{ margin:0; width:478px; height:62px; padding:19px 0 19px 60px;}
+.content .goods > ul .li01 .checked{ margin:20px 25px 0 0;}
+.content .goods > ul .li01 img{ border:1px solid #dfdfdf; float:left;}
+.content .goods > ul .li01 .name{
+	float:left;
+	display:block;
+	width:240px;
+	line-height:16px;
+	font-family:"宋体";
+	font-size:12px;
+	color:#333;
+	text-align:left;
+	margin-left:10px;
+	}
+.content .goods > ul .li01 .name span{
+	font-family:"宋体";
+	font-size:12px;
+	color:#666;
+	display:block;
+	margin-top:5px;
+	}
+.content .goods > ul li span{ font-family:"宋体"; display:block; line-height:14px;}
+.content .goods > ul li .s1{ color:#333; margin:35px 0 5px 0px;}
+.content .goods > ul li .s2{ color:#666; text-decoration:line-through; font-size:12px;}
+.content .goods > ul li form{ width:130px; height:26px; border:1px solid #dfdfdf; margin-top:35px;}
+.content .goods > ul li .bnt{ float:left; width:25px; height:26px; background:#fff; cursor:pointer;}
+.content .goods > ul li .sz{ float:left; width:78px; height:26px; text-align:center; border-left:1px solid #dfdfdf; border-right:1px solid #dfdfdf;}
+.content .goods > ul li .redwz{ color:#e60012; margin-top:40px;}
+.content .goods > ul li a{ display:block; color:#777; font-family:"宋体"; width:50px; height:18px; text-align:center; line-height:18px; margin:0 auto; padding:2px;}
+.content .goods > ul li .a1{ margin-top:30px;}
+
+/*订单留言栏样式*/
+.content .message{width:1200px; padding-top:10px; height:250px; margin:0 auto; border:1px solid #dfdfdf; border-top:none; background:#fafafa;}
+.content .message span{ padding-right:20px;}
+.content .message .text{ width:210px; height:20px; border:1px solid #dfdfdf; background:#fff; font-size:12px;}
+.content .message .set1{ width:109px; height:20px; border:1px solid #6687a3; line-height:20px;}
+.content .message .set1 option{ font-family:"宋体"; font-size:12px; line-height:20px;}
+.content .message .set2{ width:150px; height:20px; border:1px solid #6687a3; line-height:20px;}
+.content .message .set2 option{ font-family:"宋体"; font-size:12px; line-height:20px;}
+.content .message textarea{ width:377px; height:76px; border:1px solid #dfdfdf; overflow:hidden; resize:none; font-size:12px; line-height:14px;}
+
+.content .botp{
+	font-family:"宋体";
+	color:#777;
+	width:1198px;
+	text-align:right;
+	margin-top:15px;
+	}
+.content .botp span{
+	color:#eb3341;
+	font-size:16px;
+	}
+.content .jies{	width:121px; margin-top:15px; padding-left:1077px;}
+.content .jies a{
+	display:block;
+	width:121px;
+	height:38px;
+	line-height:38px;
+	text-align:center;
+	background:#eb3341;
+	color:#fff;
+	font-family:"宋体";
+	font-size:16px;
+	cursor:pointer;
+	}
+
+/*页面主体样式结束*/

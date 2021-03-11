@@ -1,0 +1,124 @@
+
+/*男装商城订单页页面样式开始*/
+.content{ width:1200px; height:auto; margin:0 auto; padding:20px 0;}
+
+/*购物流程图样式开始*/
+#steps{
+	width:689px;
+	height:46px;
+	margin:0 auto;
+	margin-top:10px;
+	}
+#steps li{
+	float:left;
+	width:219px;
+	height:41px;
+	border-top:5px solid #eee;
+	position:relative;
+	text-align:center;
+	line-height:41px;
+	}
+#steps .now{border-top:5px solid #ccc;}
+#steps li a{ font-family:"宋体"; color:#9f9e9e; padding:10px 15px;}
+#steps li > div{
+	width:25px;
+	height:25px;
+	border-radius:25px;
+	text-align:center;
+	line-height:25px;
+	background:#ccc;
+	color:#fff;
+	position:absolute;
+	left:92px;
+	top:-13px;
+	}
+#price{ margin-left:2px;}
+#nowjg1{ color:#333; margin:30px 0 5px 0px; float:left;}
+#nowjg2{ color:#333; margin:30px 0 5px 0px; float:left;}
+#redwz1,#redwz2,#redwz3,#redwz4{ color:#e60012; margin-top:40px; float:left;}
+.checked{ float:left; width:12px; height:12px; margin-top:1px;}
+.storename{ display:block; float:left; width:200px; height:15px; color:#666; line-height:15px; padding-left:5px;}
+
+.content .goods{ width:1200px; height:auto; margin:0 auto; border:1px solid #dfdfdf; background:#fafafa; margin-top:10px;}
+.content .goods .title{ width:1198px; height:42px;}
+.content .goods .title ul{ text-align:center; line-height:42px; height:42px; width:1198px;}
+.content .goods .title ul li{
+	float:left;
+	font-family:"宋体";
+	color:#333;
+	width:150px;
+	margin-left:15px;
+	}
+.goods > ul li .s1{ color:#333; margin:30px 0 5px 45px; float:left;}
+.goods > ul li .s2{ color:#666; text-decoration:line-through; font-size:12px;}
+.content .goods .title ul .li01{ margin:0; width:538px;}
+
+.content .goods > ul{ width:1200px; height:100px; border-top:1px solid #dfdfdf; text-align:center;}
+.content .goods > ul a:hover{ text-decoration:underline;}
+.content .goods > ul li{
+	float:left;
+	font-family:"宋体";
+	color:#333;
+	width:150px;
+	height:100px;
+	margin-left:15px;
+	}
+.content .goods > ul .li01{ margin:0; width:518px; height:62px; padding:19px 0 19px 20px;}
+.content .goods > ul .li01 .checked{ margin:20px 25px 0 0;}
+.content .goods > ul .li01 img{ border:1px solid #dfdfdf; float:left;}
+.content .goods > ul .li01 .name{
+	float:left;
+	display:block;
+	width:240px;
+	line-height:16px;
+	font-family:"宋体";
+	font-size:12px;
+	color:#333;
+	text-align:left;
+	margin-left:10px;
+	}
+.content .goods > ul .li01 .name span{
+	font-family:"宋体";
+	font-size:12px;
+	color:#666;
+	display:block;
+	margin-top:5px;
+	}
+.content .goods > ul li span{ font-family:"宋体"; display:block;}
+.goods > ul li .s1{ color:#333; margin:30px 0 5px 45px; float:left;}
+.goods > ul li .s2{ color:#666; text-decoration:line-through; font-size:12px;}
+.content .goods > ul li form{ width:130px; height:26px; border:1px solid #dfdfdf; margin:0 auto; margin-top:35px;}
+.content .goods > ul li .bnt{ float:left; width:25px; height:26px; background:#fff; cursor:pointer;}
+.content .goods > ul li .sz{ float:left; width:78px; height:26px; text-align:center; border-left:1px solid #dfdfdf; border-right:1px solid #dfdfdf;}
+.goods > ul li .redwz{ color:#e60012; margin-top:40px; margin-left:45px; float:left;}
+.content .goods > ul li a{ display:block; color:#777; font-family:"宋体"; width:50px; height:18px; text-align:center; line-height:18px; margin:0 auto; padding:2px;}
+.content .goods > ul li .a1{ margin-top:25px;}
+
+.content .botp{
+	font-family:"宋体";
+	color:#777;
+	width:1198px;
+	text-align:right;
+	margin-top:20px;
+	}
+.content .botp span{
+	color:#eb3341;
+	font-size:16px;
+	}
+.content .jies{	width:121px; margin-top:15px; padding-left:1077px;}
+.content .jies a{
+	display:block;
+	width:121px;
+	height:38px;
+	line-height:38px;
+	text-align:center;
+	background:#eb3341;
+	color:#fff;
+	font-family:"宋体";
+	font-size:16px;
+	cursor:pointer;
+	}
+.content .jies input:hover{ color:#dfdfdf}
+
+
+/*男装商城订单页页面样式结束*/

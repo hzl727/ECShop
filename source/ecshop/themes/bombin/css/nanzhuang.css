@@ -1,0 +1,188 @@
+/* CSS Document */
+.content{
+	width:1200px;
+	height:auto;
+	margin:0 auto;}
+h1{
+	line-height:40px; font-family:"宋体"; font-size:12px; color:#6b6b6b; font-weight:400; line-height:62px;}
+h1 a{
+	padding:0 10px;font-family:"宋体"; font-size:12px; color:#6b6b6b; font-weight:400;}
+h1 a:hover{ text-decoration:underline;}
+.content .yxz{
+	width:1158px;
+	height:auto;
+	background: #fafafa url(../images/yxzbg.png) no-repeat 1161px 0px;
+	border:1px solid #cdcdcd;
+	padding:0 20px;
+	line-height:49px;}
+.content .yxz .wz{
+	line-height:22px;
+	margin:6px 0;
+	float:left;}
+.content .yxz ul{ float:left; width:1070px;}
+.content .yxz img{ height:22px;}
+.content .yxz li{ float:left; width:65px; height:22px; border:1px solid #cdcdcd; line-height:22px; margin:5px 5px; padding-left:5px; display:block; background:url(../images/yxzbgx.png) no-repeat 58px 8px; cursor:pointer; display:none;}
+.content .pp{
+	width:1198px;
+	height:auto;
+	border:1px solid #cdcdcd;
+	border-top:none;
+	line-height:43px;
+	}
+.content .pp p{ float:left; padding:1px 0;}
+.content .pp ul li{
+	height:45px;
+	float:left;
+	margin:0px 20px 0px 10px;
+	line-height:40px;
+	cursor:pointer;}
+.content .pp ul .hr{ border-bottom:1px solid #cdcdcd; border-top:1px solid #cdcdcd;}
+.content .pp .wz{
+	float:left;
+	margin:0;
+	padding-left:60px;}
+
+.content .xx{
+	width:1198px;
+	height:39px;
+	border:1px solid #cdcdcd;
+	margin:11px 0px;}
+.content .xx ul{
+	float:left;}
+.content .xx ul li{
+	height:39px;
+	float:left;
+	border-right:1px solid #cdcdcd;
+	padding:0px 8px;
+	line-height:39px;}
+.content .xx ul .active{
+	color:#ff0000;}
+.content .xx .jg{
+	width:150px;
+	height:22px;
+	border:1px solid #cdcdcd;
+	float:left;
+	margin:7px 17px 0px 7px;}
+.content .xx .jg ul li{
+		padding:0;
+		line-height:22px;}
+.content .xx .jg ul .qh{
+	width:68px;
+	height:22px;
+	border:0;}
+.content .xx .jg ul .zj{
+	width:8px;
+	height:22px;
+	padding:0px 2px;
+	border-left:1px solid #cdcdcd;
+	border-right:1px solid #cdcdcd;}
+.content .xx .ss{
+	width:130px;
+	height:21px;
+	border:1px solid #cdcdcd;
+	float:left;
+	padding-top:1px;
+	margin-top:7px;}
+.content .xx .button{
+	width:37px;
+	height:24px;
+	border:1px solid #cdcdcd;
+	float:left;
+	margin-top:7px;
+	font-size:16px;
+	background:#dcdcdc;
+	color:#4d4d4d;
+	font-family:"宋体";}
+.content .xx .zh{
+	float:right;}
+.content .xx .zh ul li{
+	float:left;
+	padding:0px 0px 0px 2px;
+	border-left:1px solid #cdcdcd;
+	border-right:0;}
+.content .xx .zh ul li a{
+	display:block;
+	width:32px;
+	height:39px;
+	background-image:url(../images/acbj2.gif);
+	background-repeat:no-repeat;
+	line-height:39px;
+	padding-left:16px;
+	color:#b0b0b0;}
+.content .xx .zh ul li .active{
+	background-image:url(../images/acbj1.gif);
+	color:#ff0000;}
+.content .show{
+	width:1200px;
+	height:auto;}
+.content .show ul{
+	width:1200px;
+	height:auto;}
+.content .show ul li{
+	width:282px;
+	height:371px;
+	float:left;
+	margin:8px 21px 8px 0px;
+	border:1px solid #cdcdcd;}
+.content .show ul li:hover{ border:1px solid #F00;}
+.content .show ul .l0{
+	width:282px;
+	height:371px;
+	float:left;
+	margin-right:0;
+	border:1px solid #cdcdcd;}
+.content .show ul li p {
+	color:#323131;
+	font-size:12px;
+	margin-top:15px;
+	text-align:center;
+	cursor:pointer;}
+.content .show ul li .p1:hover{
+	text-decoration:underline;}
+.content .show ul li p .s1{
+	color:#e9002c;
+	margin:0px 5px;}
+.content .show ul li p .s2{
+	color:#8a8a8a;
+	text-decoration:line-through;
+	margin:0px 5px;}
+.content .show ul li p .s3{
+	color:#0080ff;
+	margin-left:50px;}
+.content .submenu{
+	float:right;
+	margin:17px 0px 50px;}
+.content .submenu a{
+	float:left;
+	display:block;
+	padding:3px 9px;
+	border:1px solid #4c4c4c;
+	margin:0 5px;
+	font-size:12px;
+	color:#4c4c4c;}
+.content .submenu .active{ background:#4c4c4c; color:#FFF;}
+.content .submenu span{
+	float:left;
+	font-size:12px;
+	line-height:25px;
+	color:#4c4c4c;
+	margin:0 3px;}
+.content .submenu input{
+	float:left;
+	width:20px;
+	background:none;
+	padding:3px 9px;
+	border:1px solid #4c4c4c;
+	margin:0 5px;
+	font-size:12px;
+	color:#4c4c4c;
+	cursor:pointer;}
+.content .submenu .button{
+	width:42px;
+	background:none;
+	padding:3px 9px;
+	border:1px solid #4c4c4c;
+	margin:0 5px;
+	font-size:12px;
+	color:#4c4c4c;}
+

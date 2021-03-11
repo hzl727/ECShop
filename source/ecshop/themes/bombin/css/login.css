@@ -1,0 +1,70 @@
+/* CSS Document */
+.content{
+	width:1200px;
+	height:auto;
+	margin:0 auto;
+	margin-bottom:60px;}
+.content .left{
+	width:490px;
+	height:400px;
+	margin:22px 96px 54px 100px;
+	float:left;}
+.content .right{
+	width:283px;
+	height:247px;
+	margin-top:70px;
+	border:1px solid #dcdcdc;
+	float:left;
+	padding:25px 0px 0px 31px;}
+.content table tr td{
+	color:#8a8a8a;}
+.content .right .ht a{
+	font-size:12px;}
+.content .right .ht a:hover{
+	color:#FF0000;}
+.content .right .xs{
+	width:180px;
+	height:21px;
+	border:1px solid #dcdcdc;
+	padding-top:2px;}
+.content .right .xs input{
+	margin-left:2px;}
+.content .right .yz{
+	width:56px;
+	height:21px;
+	border:1px solid #dcdcdc;
+	padding-top:2px;}
+.content .right .yz input{
+	margin-left:2px;}
+.content .right form > a{
+	display:block;
+	float:left;
+	margin:0 30px 14px 0;}
+.content .right .dl{
+	width:249px;
+	height:31px;
+	border-radius:2px;
+	background:#ec1252;
+	line-height:31px;
+	color:#fad5dc;
+	margin-bottom:8px;
+	cursor:pointer;}
+.content .right .dl:hover{
+	background:#F60;}
+.content .right ul li{
+	float:left;
+	font-size:12px;
+	line-height:25px;}
+.content .right ul .qq{
+	background-image:url(../images/qq.gif);
+	background-repeat:no-repeat;
+	padding-left:25px;
+	margin-right:5px;}
+.content .right ul .wx{
+	background-image:url(../images/wx.gif);
+	background-repeat:no-repeat;
+	padding-left:35px;}
+.content .right ul li a{
+	font-size:12px;}
+.content .right ul li a:hover{
+	color:#FF0000;}

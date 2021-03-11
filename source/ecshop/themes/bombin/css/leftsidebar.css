@@ -1,0 +1,25 @@
+/*      左导航栏开始      */
+
+.leftsidebar{
+	width:179px;
+	height:592px;
+	border:1px solid #dfdfdf;
+	margin-left:3px;
+	padding:10px;
+	float:left;}
+.leftsidebar ul{
+	width:167px;}
+.leftsidebar ul h6{
+	font:18px/45px "微软雅黑";
+	border-bottom:1px solid #dfdfdf;}
+.leftsidebar ul li{
+	height:25px;
+	margin:10px 3px;}
+.leftsidebar ul li a{
+	font:12px/25px "微软雅黑";
+	color:#666;}
+.leftsidebar ul li a:hover{
+	color:#F00;}
+
+/*      左导航栏结束      */
+

@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="{$keywords}" />
+<meta name="Description" content="{$description}" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>{$page_title}</title>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+{* 包含脚本文件 *}
+{insert_scripts files='common.js'}
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+<!--当前位置 start-->
+<div class="block box">
+ <div id="ur_here">
+  <!-- #BeginLibraryItem "/library/ur_here.lbi" --><!-- #EndLibraryItem -->
+ </div>
+</div>
+<!--当前位置 end-->
+<div class="blank"></div>
+<div class="block clearfix">
+  <!--left start-->
+  <div class="AreaL">
+    <!-- TemplateBeginEditable name="左边区域" -->
+<!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
+
+<h2><span>{$goods_cat.name|escape:html}</span><a href="{$goods_cat.url}" class="more">更多></a></h2>
+<div class="i_prclist hover" id="goods_cat{$goods_cat.id}"><a href="{$goods_cat.url}" class="pmore">更多{$goods_cat.name|escape:html}分类</a>
+  <div class="cxjad_m">
+    <div class="cxjinfo">
+      <!--{foreach from=$cat_goods item=goods}-->
+      <div class="cxjitem">
+        <div class="p"><a href="{$goods.url}" class="aimg"><img src="{$goods.thumb}" width="200" height="200" alt="{$goods.name|escape:html}" class="goodsimg" /></a></div>
+        <div class="i">
+          <h3><a href="{$goods.url}" title="{$goods.name|escape:html}">{$goods.short_name|escape:html}
+            <!-- {if $goods.brief} -->
+            <em class="brief">{$goods.brief}</em>
+            <!--{/if}-->
+            </a></h3>
+          <ul class="prices">
+            <li class="gel-price">
+              <!-- {if $goods.promote_price neq ""} -->
+              {$lang.promote_price}<em>{$goods.promote_price}</em>
+              <!-- {else}-->
+              销售价：<em>{$goods.shop_price}</em>
+              <!--{/if}-->
+            </li>
+            <li class="gel-mktprice"><em>市场价：</em>{$goods.market_price}</li>
+          </ul>
+        </div>
+      </div>
+      <!--{/foreach}-->
+    </div>
+  </div>
+  <div class="clear0"></div>
+</div>
+
+<script>$(function (){					  
+					$(".post_cat{$goods_cat.id} dt a").clone().prependTo($("#goods_cat{$goods_cat.id}").parent().parent().children(".fl").children(".fd30_wordmenu"));					 	
+					$("#goods_cat{$goods_cat.id} .pmore").appendTo($("#goods_cat{$goods_cat.id}").parent().parent().children(".fl").children(".fd30_wordmenu"));
+					  })
+</script>
+ <!-- #EndLibraryItem -->
+<!-- #BeginLibraryItem "/library/category_tree.lbi" -->
+
+<div class="fd30_left_cart leftbox">
+  <div class="lt">产品分类</div>
+  <!--{foreach from=$categories item=cat name=catename }-->
+  <div class="Cate_item"  id="catO{$cat.id}">
+    <h4><a href="{$cat.url}">{$cat.name|escape:html}</a> </h4>
+    <div class="catTw_Th" >
+      <!--{if $cat.cat_id}-->
+      <!--{foreach from=$cat.cat_id item=child name=childname}--><div class="citem">
+      <a id="catTw{$child.id}" href="{$child.url}"  
+      <!-- {if $smarty.foreach.childname.first} -->
+      class="fore"
+      <!-- {/if} -->
+      >{$child.name|escape:html}</a>
+      <!--{if $child.cat_id}--><div class="catTh">
+      <!--{foreach from=$child.cat_id item=childer}-->
+      <a href="{$childer.url}" id="catTh{$childer.id}">{$childer.name|escape:html}</a>
+      <!--{/foreach}--></div>
+      <!--{/if}--></div>
+      <!--{/foreach}-->
+      <!--{/if}-->
+    </div>
+  </div>
+  <!--{/foreach}-->
+</div>
+<style>
+.fd30_left_cart{ margin-top:0px;border-top: 2px solid #999;}
+.fd30_left_cart .lt{background:#f7f7f7; color:#333;}
+.Cate_item{ width:85%; margin:10px auto;}
+.fd30_left_cart .Cate_item a{ display:block; line-height:30px;  text-indent:0px; position:relative; font-size:14px}
+.fd30_left_cart .Cate_item h4{ background:URL(../images/jia.gif) 10px center no-repeat; padding-left:33px;}
+.fd30_left_cart .Cate_item .catTw_Th{ display:none; padding-left:35px; padding-right:15px;}
+.fd30_left_cart .Cate_item .catTw_Th a{ color:#666} 
+.fd30_left_cart .Cate_item .catTw_Th a:hover{ color:#333}
+.fd30_left_cart .Cate_item_k .catTw_Th{ display:block}
+.catTh{ display:none}
+.citem_k .catTh{ display:block; padding-left:25px;}
+.fd30_left_cart .Cate_item_k h4{ background:URL(../images/jian.gif) 10px center no-repeat #f5f5f5;}
+.fd30_left_cart .Cate_item .catTw_Th a.av{ color:#6BA103}
+</style> 
+<input type="hidden" class="i_gcatid" name="cat_id" value="{$goods.cat_id}">
+<script>
+var gcid="{$category}";
+if(gcid=="")
+{gcid="{$goods.cat_id}";
+}
+$("#catO"+gcid).addClass("Cate_item_k");
+$("#catTw"+gcid).parent().parent().parent().addClass("Cate_item_k");
+$("#catTw"+gcid).addClass("av");
+$("#catTw"+gcid).parent().addClass("citem_k");
+
+$("#catTh"+gcid).parent().parent().parent().parent().addClass("Cate_item_k");
+$("#catTh"+gcid).addClass("av");
+$("#catTh"+gcid).parent().parent().addClass("citem_k");
+
+</script>
+<div class="blank5"></div>
+
+ <!-- #EndLibraryItem -->
+<!-- TemplateEndEditable -->
+    <div id="ECS_PRICE_LIST">
+    <!-- #BeginLibraryItem "/Library/snatch_price.lbi" --><!-- #EndLibraryItem -->
+    </div>
+    <div class="box">
+     <div class="box_1">
+      <h3><span>{$lang.activity_list}</span></h3>
+      <div class="boxCenterList RelaArticle">
+        <ul class="clearfix">
+        <!--{foreach from=$snatch_list item=item}-->
+        <li><a href="{$item.url}">{$item.snatch_name}</a>&nbsp;&nbsp;
+          <!--{if $item.overtime }-->
+          ({$lang.end})
+          <!--{/if}-->
+        </li>
+        <!--{/foreach}-->
+        </ul>
+      </div>
+     </div>
+    </div>
+    <div class="blank5"></div>
+    <!-- TemplateBeginEditable name="左边广告区域（宽200px）" -->
+<!-- TemplateEndEditable -->
+    <!--AD end-->
+    <!-- #BeginLibraryItem "/library/history.lbi" --><!-- #EndLibraryItem -->
+  </div>
+  <!--left end-->
+  <!--right start-->
+  <div class="AreaR">
+   <div class="box">
+   <div class="box_1">
+    <h3><span>{$lang.treasure_info}</span></h3>
+    <div class="boxCenterList">
+      <ul class="group clearfix">
+      <li style="margin-right:8px; text-align:center;">
+      <a href="{$snatch_goods.url}"><img src="{$snatch_goods.goods_thumb}" alt="{$snatch_goods.goods_name|escape:html}" /></a>
+      </li>
+      <li style="width:555px; line-height:23px;">
+       {insert_scripts files='lefttime.js'}
+     <a href="{$snatch_goods.url}"><strong>{$snatch_goods.goods_name|escape:html}</strong>{if $snatch_goods.product_id > 0}&nbsp;[{$products_info}]{/if}</a><br />
+     {$lang.shop_price} <font class="shop">{$snatch_goods.formated_shop_price}</font><br />
+     {$lang.market_price} <font class="market">{$snatch_goods.formated_market_price}</font> <br />
+     {$lang.residual_time} <font color="red"><span id="leftTime">{$lang.please_waiting}</span></font><br />
+     {$lang.activity_desc}：<br />{$snatch_goods.desc|escape:html|nl2br}
+      </li>
+      </ul>
+    </div>
+   </div>
+  </div>
+   <div class="blank5"></div>
+   <div class="box">
+   <div class="box_1">
+    <h3><span>{$lang.activity_intro}</span></h3>
+    <div class="boxCenterList">
+    {$snatch_goods.snatch_time}<br />
+    {$lang.price_extent}{$snatch_goods.formated_start_price} - {$snatch_goods.formated_end_price} <br />
+    {$lang.user_to_use_up}{$snatch_goods.cost_points} {$points_name}<br />
+    {$lang.snatch_victory_desc}<br />
+    <!--{if $snatch_goods.max_price neq 0}-->    {$lang.price_less_victory}{$snatch_goods.formated_max_price}，{$lang.price_than_victory}{$snatch_goods.formated_max_price}，{$lang.or_can}{$snatch_goods.formated_max_price}{$lang.shopping_product}。
+    <!--{else}-->
+    {$lang.victory_price_product}
+    <!--{/if}-->
+    </div>
+   </div>
+  </div>
+  <div class="blank5"></div>
+  <div id="ECS_SNATCH">
+    <!-- #BeginLibraryItem "/Library/snatch.lbi" --><!-- #EndLibraryItem -->
+    </div>
+  </div>
+  <!--right end-->
+</div>
+<div class="blank5"></div>
+<!--帮助-->
+<!-- #BeginLibraryItem "/library/help.lbi" --><!-- #EndLibraryItem -->
+<!--帮助-->
+<!--友情链接 start-->
+<!--{if $img_links  or $txt_links }-->
+<div id="bottomNav" class="box">
+ <div class="box_1">
+  <div class="links clearfix">
+    <!--开始图片类型的友情链接{foreach from=$img_links item=link}-->
+    <a href="{$link.url}" target="_blank" title="{$link.name}"><img src="{$link.logo}" alt="{$link.name}" border="0" /></a>
+    <!--结束图片类型的友情链接{/foreach}-->
+    <!-- {if $txt_links} -->
+    <!--开始文字类型的友情链接{foreach from=$txt_links item=link}-->
+    [<a href="{$link.url}" target="_blank" title="{$link.name}">{$link.name}</a>]
+    <!--结束文字类型的友情链接{/foreach}-->
+    <!-- {/if} -->
+  </div>
+ </div>
+</div>
+<!--{/if}-->
+<!--友情链接 end-->
+<div class="blank"></div>
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+</body>
+<script type="text/javascript">
+var gmt_end_time = {$snatch_goods.gmt_end_time|default:0};
+var id = {$id};
+{foreach from=$lang.snatch_js item=item key=key}
+var {$key} = "{$item}";
+{/foreach}
+{foreach from=$lang.goods_js item=item key=key}
+var {$key} = "{$item}";
+{/foreach}
+<!-- {literal} -->
+
+onload = function()
+{
+  try
+  {
+    window.setInterval("newPrice(" + id + ")", 8000);
+    onload_leftTime();
+  }
+  catch (e)
+  {}
+}
+<!-- {/literal} -->
+</script>
+</html>

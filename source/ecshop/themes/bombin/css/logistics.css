@@ -1,0 +1,72 @@
+#container{
+	width:1200px;
+	margin:0 auto;
+	padding-bottom:53px;}
+#container > span{
+	display:block;
+	height:32px;
+	font:12px/32px "宋体";}
+#container > span a{
+	font:12px/32px "宋体";}
+#container > span a:hover{
+	color:#F00;}
+	
+.logistics{
+	width:980px;
+	float:right;}
+.logistics p{
+	font-size:20px;
+	color:#3c3c3c;
+	margin-left:12px;}
+.logistics ul{
+	margin-top:39px;}
+.logistics ul li{
+	width:326px;
+	float:left;
+	border-bottom:1px solid #dfdfdf;
+	margin-bottom:90px;}
+.logistics ul li h6{
+	width:326px;
+	height:19px;
+	border-left:2px solid #F00;
+	padding-left:15px;
+	font-weight:400;}
+.logistics ul li h6 span{
+	color:#4c4949;}
+.logistics ul li img{
+	float:left;
+	margin:14px 12px 18px 19px;}
+.logistics ul li p{
+	font-size:12px;
+	color:#3c3c3c;
+	margin-top:14px;}
+.logistics ul li p a{
+	font-size:12px;}
+.logistics ul li p a:hover{ color:#f00;}
+	
+.logistics .submenu{
+	margin:26px 300px;}
+.logistics .submenu li{
+	width:24px;
+	height:21px;
+	border:1px solid #dfdfdf;
+	color:#4c4c4c;
+	float:left;
+	text-align:center;
+	line-height:21px;
+	margin:0 6px;
+	font-size:12px;	}
+.logistics .submenu .li_new{
+	background:#F00;
+	color:#FFF;}
+.logistics .submenu input{
+	width:43px;
+	height:23px;
+	border:1px solid #dfdfdf;
+	color:#4c4c4c;
+	background:none;
+	float:left;
+	margin:0 6px;
+	font-size:12px;
+	cursor:pointer;}
+
